@@ -1,6 +1,7 @@
 {
   "name": "project-management-root",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "build": "npx prisma generate --schema=server/prisma/schema.prisma && cd client && npm install && npm run build",
     "install-all": "npm install && cd client && npm install && cd ../server && npm install"
